@@ -23,7 +23,7 @@ const MobileMenu = () => {
               <X className="size-8" />
             </div>
           ) : (
-            <div className="p-1 flex justify-center items-center gap-2">
+            <div className="p-1 flex justify-center items-center gap-2 ">
               <MenuIcon className="size-8" />
             </div>
           )}
