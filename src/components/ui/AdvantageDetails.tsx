@@ -12,8 +12,8 @@ const AdvantageDetails = ({
   return (
     <div className="mb-6">
       <div className="flex gap-5 mb-5 justify-start items-center">
-        <Image src={icon} alt="icon" width={40} height={40} />
-        <h1 className="text-2xl font-bold">{title}</h1>
+        {icon && <Image src={icon} alt="icon" width={40} height={40} />}
+        <h1 className="text-2xl font-bold capitalize">{title}</h1>
       </div>
       <p>{details}</p>
     </div>

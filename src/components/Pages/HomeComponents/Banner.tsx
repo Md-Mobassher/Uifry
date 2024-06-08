@@ -44,7 +44,7 @@ const Banner = () => {
             </div>
           </div>
           {/* banner image */}
-          <div className=" flex-1 group lg:w-[700px]">
+          <div className="lg:flex hidden flex-1 group lg:w-[700px]">
             <div className="absolute z-0 right-36 -top-7  flex">
               <Image src={bgcolor} alt="banner image" className="" />
             </div>
