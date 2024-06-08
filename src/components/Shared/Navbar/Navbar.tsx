@@ -7,41 +7,42 @@ import Container from "@/components/ui/Container";
 
 const Navbar = () => {
   return (
-    <Container>
-      <div className="flex  justify-between items-center ">
-        <div className="flex gap-3 items-center">
-          <div>
-            <Link href="/">
-              <Image src={logo} alt="logo" />
-            </Link>
-          </div>
-          <nav className="lg:flex md:flex hidden flex-wrap">
-            {navItemsData.map((item, index) => (
-              <Link
-                key={index}
-                href={item.url}
-                className=" text-md font-semibold  py-2 px-4 hover:text-[#FF5555] active:text-[#FF5555] rounded-md"
-              >
-                {item.title}
+    <header className="z-30">
+      <Container>
+        <div className="flex  justify-between items-center ">
+          <div className="flex gap-3 items-center">
+            <div>
+              <Link href="/">
+                <Image src={logo} alt="logo" />
               </Link>
-            ))}
-          </nav>
-        </div>
-
-        <div>
-          <div className="lg:flex md:flex hidden ">
-            {" "}
-            <Link
-              href="/"
-              className=" text-md font-semibold  py-4 px-10 text-white bg-black hover:bg-gray-700 rounded-md"
-            >
-              Download
-            </Link>
+            </div>
+            <nav className="lg:flex md:flex hidden flex-wrap">
+              {navItemsData.map((item, index) => (
+                <Link
+                  key={index}
+                  href={item.url}
+                  className=" text-md font-semibold  py-2 px-4 hover:text-[#FF5555] active:text-[#FF5555] rounded-md"
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </nav>
           </div>
-          <MobileMenu />
+
+          <div>
+            <div className="lg:flex md:flex hidden ">
+              <Link
+                href="/"
+                className=" text-md font-semibold  py-4 px-10 text-white bg-black hover:bg-gray-700 rounded-md"
+              >
+                Download
+              </Link>
+            </div>
+            <MobileMenu />
+          </div>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </header>
   );
 };
 

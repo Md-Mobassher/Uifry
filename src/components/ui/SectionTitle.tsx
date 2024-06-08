@@ -10,9 +10,7 @@ const SectionTitle = ({
       <h3 className="text-red-500 font-xl font-semibold uppercase mb-2">
         {subTitle}
       </h3>
-      <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold text-black">
-        {title}
-      </h1>
+      <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold ">{title}</h1>
     </div>
   );
 };

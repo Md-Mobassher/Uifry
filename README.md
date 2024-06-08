@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a responsive landing page for a mobile application, created using HTML, CSS, and Next.js. The design is visually appealing, user-friendly, and optimized for both desktop and mobile devices. The landing page includes various sections such as Hero, Features, Gallery, Testimonials, Pricing, and Contact/Download as per the provided Figma design.
+This project is a responsive landing page for a mobile application, created using HTML, CSS, Next.js and Tailwind. The design is visually appealing, user-friendly, and optimized for both desktop and mobile devices. The landing page includes various sections such as Hero, Features, Gallery, Testimonials, and Contact/Download as per the provided Figma design.
 
 ## Table of Contents
 
@@ -17,8 +17,6 @@ This project is a responsive landing page for a mobile application, created usin
 - [Deployment](#deployment)
 
 - [Design Choices](#design-choices)
-
-- [Optional Enhancements](#optional-enhancements)
 
 - [Figma Design](#figma-design)
 
@@ -106,7 +104,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Deployment
 
-This project is deployed on Vercel. You can view the live site [here]().
+This project is deployed on Vercel. You can view the live site [here](https://uifry-nine-amber.vercel.app).
 
 ## Design Choices
 
@@ -115,10 +113,6 @@ This project is deployed on Vercel. You can view the live site [here]().
 - **Styling**: Consistent styling was maintained as per the Figma design using CSS.
 
 - **Fonts**: Google Fonts were used for typography to match the Figma design.
-
-## Optional Enhancements
-
-- **Dark Mode Toggle**: Implemented a dark mode for better user experience.
 
 - **Tailwind CSS**: Used for efficient and scalable styling.
 

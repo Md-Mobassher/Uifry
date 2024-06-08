@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Shared/Navbar/Navbar";
 import Footer from "@/components/Shared/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Sora({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Welcome to Unifry",
-  description: "This is a Unifry website.",
+  title: "Welcome to Uifry",
+  description: "This is a Uifry website.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         <Navbar />
         {children}
         <Footer />
