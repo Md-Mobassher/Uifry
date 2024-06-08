@@ -14,7 +14,7 @@ const Banner = () => {
     <section className="relative">
       <Container>
         <div className="flex lg:flex-row md:flex-row flex-col lg:justify-between items-center justify-center md:justify-between gap-10">
-          <div className="absolute z-0  -top-28  flex">
+          <div className="absolute -z-10  -top-28  flex">
             <Image src={bgcolor2} alt="banner image" className="" />{" "}
           </div>
           <div className="flex-1 z-10 mt-10">

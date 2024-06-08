@@ -3,6 +3,7 @@ import Banner from "@/components/Pages/HomeComponents/Banner";
 import Customisable from "@/components/Pages/HomeComponents/Customisable";
 import Faq from "@/components/Pages/HomeComponents/Faq";
 import Features from "@/components/Pages/HomeComponents/Features";
+import GetStarted from "@/components/Pages/HomeComponents/GetStarted";
 import Testimonial from "@/components/Pages/HomeComponents/Testimonial";
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Customisable />
       <Testimonial />
       <Faq />
+      <GetStarted />
     </div>
   );
 };

@@ -13,10 +13,10 @@ const Customisable = () => {
         <Image src={bg} alt="backgroud image" className="" />{" "}
       </div>
       <div className="absolute flex -z-10 top-0 left-1/2 -mr-20">
-        <Image src={star} alt="fetaure image" className="" />{" "}
+        <Image src={star} alt="star image" className="" />{" "}
       </div>
       <div className="absolute flex -z-10 bottom-0 left-2/3 ">
-        <Image src={star} alt="fetaure image" className="" />{" "}
+        <Image src={star} alt="star image" className="" />{" "}
       </div>
 
       <Container>

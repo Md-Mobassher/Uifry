@@ -13,60 +13,64 @@ const Faq = () => {
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5">
-          <div className="bg-red-500 p-5 rounded-lg text-white">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
+        <div className="flex lg:flex-row md:flex-row flex-col gap-5">
+          <div className="flex-1">
+            <div className="bg-red-500 p-5 rounded-lg text-white">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
+            <div className=" p-5 rounded-lg">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
+            <div className="bg-red-500 p-5 rounded-lg text-white">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
           </div>
-          <div className=" p-5 rounded-lg">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
-          </div>
-          <div className=" p-5 rounded-lg ">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
-          </div>
-          <div className="bg-red-500 p-5 rounded-lg text-white">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
-          </div>
-          <div className="bg-red-500 p-5 rounded-lg text-white">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
-          </div>
-          <div className=" p-5 rounded-lg ">
-            <h3 className="capitalize text-xl font-bold">
-              the best financial accounting app ever!
-            </h3>
-            <p>
-              “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultricies. In ultrices malesuada elit mauris.
-            </p>
+          <div className="flex-1">
+            <div className=" p-5 rounded-lg ">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
+            <div className="bg-red-500 p-5 rounded-lg text-white">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
+            <div className=" p-5 rounded-lg ">
+              <h3 className="capitalize text-xl font-bold">
+                the best financial accounting app ever!
+              </h3>
+              <p>
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
+                ultricies. In ultrices malesuada elit mauris.
+              </p>
+            </div>
           </div>
         </div>
       </Container>
