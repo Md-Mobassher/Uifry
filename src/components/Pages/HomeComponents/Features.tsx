@@ -12,7 +12,7 @@ import star from "@/assets/section2/Star 1.png";
 
 const Features = () => {
   return (
-    <section className="relative lg:py-10 md:py-8 py-5">
+    <section className="relative mt-14">
       <div className="absolute flex -z-10 lg:top-20 lg:left-20 md:top-18 md:left-18 top-0 left-5">
         <Image src={star} alt="fetaure image" className="" />{" "}
       </div>
