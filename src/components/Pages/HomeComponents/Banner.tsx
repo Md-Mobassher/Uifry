@@ -5,6 +5,8 @@ import banner1 from "@/assets/banner/banner-2.png";
 import banner2 from "@/assets/banner/Frame 1.png";
 import mobile from "@/assets/banner/iPhone-13-Pro-Front.png";
 import mobile2 from "@/assets/banner/iPhone-13-Pro-Front-1.png";
+import bgcolor from "@/assets/banner/Group 35899.png";
+import bgcolor2 from "@/assets/banner/bg-5.png";
 import Container from "@/components/ui/Container";
 
 const Banner = () => {
@@ -12,12 +14,15 @@ const Banner = () => {
     <section className="relative">
       <Container>
         <div className="flex lg:flex-row md:flex-row flex-col lg:justify-between items-center justify-center md:justify-between gap-10">
-          <div className="flex-1">
+          <div className="absolute z-0  -top-28  flex">
+            <Image src={bgcolor2} alt="banner image" className="" />{" "}
+          </div>
+          <div className="flex-1 z-10 mt-10">
             <h1 className="text-5xl font-bold font-sans">Make The Best</h1>
             <h1 className="text-5xl font-bold font-sans">
               Financial Decisions
             </h1>
-            <p>
+            <p className="mt-5">
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </p>
@@ -34,12 +39,15 @@ const Banner = () => {
                 </div>
               </Link>
             </div>
-            <div className="max-w-xl">
+            <div className="max-w-xl ">
               <Image src={banner1} alt="banner" />
             </div>
           </div>
           {/* banner image */}
           <div className=" flex-1 group lg:w-[700px]">
+            <div className="absolute z-0 right-36 -top-7  flex">
+              <Image src={bgcolor} alt="banner image" className="" />
+            </div>
             <div className="absolute -top-14 right-6 z-0 ">
               <Image src={banner2} alt="banner image" className="flex" />
             </div>
